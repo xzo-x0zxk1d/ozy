@@ -1,0 +1,13 @@
+var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/auth/discord/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0lqhu-j._.js")
+R.c("server/chunks/ssr/02~w_next_dist_esm_build_templates_app-page_0r1k63q.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1191mya._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0pvbusn._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__07t4xsc._.js")
+R.c("server/chunks/ssr/02~w_next_dist_client_components_0iny.ia._.js")
+R.c("server/chunks/ssr/02~w_next_dist_client_components_builtin_forbidden_11qxbkk.js")
+R.c("server/chunks/ssr/02~w_next_dist_client_components_builtin_unauthorized_02f84vr.js")
+R.c("server/chunks/ssr/02~w_next_dist_client_components_builtin_global-error_0-~ln-2.js")
+R.c("server/chunks/ssr/0m4n_GitHub_ozy_ozybot__next-internal_server_app_auth_discord_page_actions_0a233io.js")
+R.m(47217)
+module.exports=R.m(47217).exports

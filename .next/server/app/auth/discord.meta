@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/auth/layout,_N_T_/auth/discord/layout,_N_T_/auth/discord/page,_N_T_/auth/discord"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/auth/discord/__PAGE__",
+    "/auth/discord",
+    "/auth",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/auth/discord/page": "app/auth/discord/page.js",
+  "/commands/page": "app/commands/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/servers/page": "app/dashboard/servers/page.js",
+  "/dashboard/settings/page": "app/dashboard/settings/page.js",
+  "/page": "app/page.js",
+  "/premium/page": "app/premium/page.js"
+}
