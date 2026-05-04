@@ -1,0 +1,228 @@
+.main {
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero {
+  padding: 120px 20px 80px;
+  background: linear-gradient(135deg, rgba(139, 30, 45, 0.1) 0%, rgba(179, 38, 59, 0.05) 100%);
+  border-bottom: 1px solid rgba(179, 38, 59, 0.2);
+}
+
+.heroContent {
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  margin-bottom: 24px;
+  line-height: 1.2;
+  animation: slideInUp 0.8s ease-out;
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin: 0 auto 48px;
+  animation: slideInUp 0.8s ease-out 0.2s backwards;
+}
+
+.heroCTA {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 60px;
+  animation: slideInUp 0.8s ease-out 0.3s backwards;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+  animation: slideInUp 0.8s ease-out 0.4s backwards;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.statNumber {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--accent-red);
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Sections */
+.section {
+  padding: 80px 20px;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto 60px;
+}
+
+/* Features */
+.features {
+  background: linear-gradient(180deg, transparent 0%, rgba(179, 38, 59, 0.05) 100%);
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.featureCard h3 {
+  font-size: 1.3rem;
+}
+
+.featureCard p {
+  font-size: 0.95rem;
+}
+
+/* Commands */
+.commandGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.commandCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  padding: 32px 24px !important;
+}
+
+.commandCard h3 {
+  font-size: 1.2rem;
+}
+
+.commandCard p {
+  font-size: 0.9rem;
+  color: var(--accent-red);
+  font-weight: 600;
+}
+
+/* CTA */
+.cta {
+  background: linear-gradient(135deg, rgba(139, 30, 45, 0.15) 0%, rgba(179, 38, 59, 0.1) 100%);
+  border: 1px solid rgba(179, 38, 59, 0.3);
+  border-radius: 16px;
+  margin: 40px 20px;
+}
+
+.ctaContent {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ctaContent h2 {
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+}
+
+.ctaContent p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 20px 60px;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroDescription {
+    font-size: 1rem;
+  }
+
+  .heroCTA {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .heroCTA a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .statNumber {
+    font-size: 2rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .commandGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta {
+    margin: 40px 20px;
+  }
+
+  .ctaContent h2 {
+    font-size: 1.8rem;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+  }
+
+  .ctaButtons a {
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,60 @@
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.2s ease;
+}
+
+.card:hover {
+  border-color: rgba(179, 38, 59, 0.3);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.iconWrap {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red .iconWrap { background: rgba(179, 38, 59, 0.12); color: #B3263B; }
+.green .iconWrap { background: rgba(0, 192, 127, 0.12); color: #00C07F; }
+.blue .iconWrap { background: rgba(59, 130, 246, 0.12); color: #3B82F6; }
+.yellow .iconWrap { background: rgba(245, 158, 11, 0.12); color: #F59E0B; }
+
+.value {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1;
+}
+
+.change {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.positive { color: #00C07F; }
+.negative { color: #FF4757; }
+.neutral  { color: var(--text-secondary); }

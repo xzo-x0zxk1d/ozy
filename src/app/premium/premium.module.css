@@ -1,0 +1,325 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0D0D0D 0%, #1A1A1A 100%);
+  color: #EAEAEA;
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #EAEAEA 0%, #B3263B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.highlight {
+  color: #B3263B;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: #999;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Pricing Card */
+.pricingCard {
+  background: linear-gradient(135deg, rgba(179, 38, 59, 0.1) 0%, rgba(139, 30, 45, 0.05) 100%);
+  border: 1px solid #B3263B;
+  border-radius: 16px;
+  padding: 3rem;
+  max-width: 500px;
+  margin: 3rem auto;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(179, 38, 59, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.priceTag {
+  margin-bottom: 1.5rem;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #B3263B;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.period {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+.priceDescription {
+  font-size: 1rem;
+  color: #CCC;
+  margin-bottom: 2rem;
+}
+
+.paypalButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: linear-gradient(135deg, #B3263B 0%, #8B1E2D 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(179, 38, 59, 0.3);
+}
+
+.paypalButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(179, 38, 59, 0.5);
+}
+
+.disclaimer {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 1.5rem;
+}
+
+/* Features Section */
+.featuresGrid {
+  margin: 4rem auto;
+  max-width: 1200px;
+}
+
+.featuresTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.featureCard {
+  background: linear-gradient(135deg, rgba(179, 38, 59, 0.05) 0%, rgba(139, 30, 45, 0.02) 100%);
+  border: 1px solid rgba(179, 38, 59, 0.2);
+  border-radius: 12px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+  background: linear-gradient(135deg, rgba(179, 38, 59, 0.15) 0%, rgba(139, 30, 45, 0.1) 100%);
+  border-color: #B3263B;
+  box-shadow: 0 8px 32px rgba(179, 38, 59, 0.15);
+}
+
+.featureIcon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #B3263B 0%, #8B1E2D 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.featureTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #EAEAEA;
+}
+
+.featureDescription {
+  color: #999;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.checkmark {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #B3263B;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+/* Comparison Section */
+.comparison {
+  margin: 4rem auto;
+  max-width: 1000px;
+}
+
+.comparisonTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tableContainer {
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(179, 38, 59, 0.2);
+}
+
+.comparisonTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: linear-gradient(135deg, rgba(26, 26, 26, 0.8) 0%, rgba(13, 13, 13, 0.8) 100%);
+}
+
+.comparisonTable thead {
+  background: linear-gradient(135deg, #B3263B 0%, #8B1E2D 100%);
+}
+
+.comparisonTable th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: white;
+  border-bottom: 2px solid rgba(179, 38, 59, 0.3);
+}
+
+.comparisonTable td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(179, 38, 59, 0.1);
+  color: #CCC;
+}
+
+.comparisonTable tr:hover {
+  background: rgba(179, 38, 59, 0.05);
+}
+
+/* FAQ Section */
+.faq {
+  margin: 4rem auto;
+  max-width: 1000px;
+}
+
+.faqTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.faqGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.faqItem {
+  background: linear-gradient(135deg, rgba(179, 38, 59, 0.05) 0%, rgba(139, 30, 45, 0.02) 100%);
+  border: 1px solid rgba(179, 38, 59, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.faqItem h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #B3263B;
+}
+
+.faqItem p {
+  color: #999;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.faqItem code {
+  background: rgba(179, 38, 59, 0.2);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: #B3263B;
+  font-family: 'Courier New', monospace;
+}
+
+/* CTA Section */
+.ctaSection {
+  text-align: center;
+  margin: 4rem 0;
+  padding: 2rem;
+}
+
+.largeButton {
+  display: inline-block;
+  background: linear-gradient(135deg, #B3263B 0%, #8B1E2D 100%);
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(179, 38, 59, 0.3);
+}
+
+.largeButton:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 48px rgba(179, 38, 59, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .pricingCard {
+    padding: 2rem;
+  }
+
+  .featuresTitle,
+  .comparisonTitle,
+  .faqTitle {
+    font-size: 1.8rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .comparisonTable {
+    font-size: 0.9rem;
+  }
+
+  .comparisonTable th,
+  .comparisonTable td {
+    padding: 0.75rem;
+  }
+}

@@ -1,0 +1,30 @@
+.cursor {
+  position: fixed;
+  width: 36px;
+  height: 36px;
+  border: 1.5px solid #B3263B;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease, border-color 0.2s ease;
+}
+
+.dot {
+  position: fixed;
+  width: 5px;
+  height: 5px;
+  background: #B3263B;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease;
+}
+
+.cursor.hover {
+  width: 52px;
+  height: 52px;
+  border-color: #FF6B6B;
+  background: rgba(179, 38, 59, 0.08);
+}

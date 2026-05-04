@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Documents/GitHub/ozy/ozybot/src/components/CustomCursor.module.css"],"sourcesContent":[".cursor {\n  position: fixed;\n  width: 36px;\n  height: 36px;\n  border: 1.5px solid #B3263B;\n  border-radius: 50%;\n  pointer-events: none;\n  z-index: 9999;\n  transform: translate(-50%, -50%);\n  transition: width 0.2s ease, height 0.2s ease, border-color 0.2s ease;\n}\n\n.dot {\n  position: fixed;\n  width: 5px;\n  height: 5px;\n  background: #B3263B;\n  border-radius: 50%;\n  pointer-events: none;\n  z-index: 9999;\n  transform: translate(-50%, -50%);\n  transition: transform 0.1s ease;\n}\n\n.cursor.hover {\n  width: 52px;\n  height: 52px;\n  border-color: #FF6B6B;\n  background: rgba(179, 38, 59, 0.08);\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;AAYA;;;;;;;;;;;;AAYA"}}]
+}

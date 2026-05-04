@@ -1,0 +1,168 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/dashboard/layout.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.layout_layout__78JpI {
+  display: flex;
+  min-height: 100vh;
+  background: var(--background);
+}
+
+.layout_content__2S0rX {
+  flex: 1 1;
+  overflow-y: auto;
+  min-width: 0;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Sidebar.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.Sidebar_sidebar__v6daX {
+  width: 240px;
+  flex-shrink: 0;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  background: #0f0f0f;
+  border-right: 1px solid var(--border);
+  padding: 0;
+  overflow: hidden;
+}
+
+.Sidebar_logo__SsBgv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 22px 20px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.Sidebar_logo__SsBgv svg {
+  color: var(--accent-red);
+}
+
+.Sidebar_nav__KAd3g {
+  flex: 1 1;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow-y: auto;
+}
+
+.Sidebar_navLabel__hTBCp {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  padding: 8px 8px 10px;
+  opacity: 0.6;
+}
+
+.Sidebar_navItem__5OSJs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all 0.18s ease;
+  position: relative;
+}
+
+.Sidebar_navItem__5OSJs:hover {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.Sidebar_active__jjcnH {
+  color: var(--text) !important;
+  background: rgba(179, 38, 59, 0.12) !important;
+  border: 1px solid rgba(179, 38, 59, 0.2);
+}
+
+.Sidebar_active__jjcnH svg:first-child {
+  color: var(--accent-red);
+}
+
+.Sidebar_chevron__eXpIf {
+  margin-left: auto;
+  color: var(--accent-red);
+}
+
+.Sidebar_bottom__6eWpF {
+  padding: 16px 12px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.Sidebar_userCard__7nAGI {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.Sidebar_avatar__eAVA_ {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--primary-red), var(--accent-red));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+  flex-shrink: 0;
+}
+
+.Sidebar_userInfo__dTvj0 {
+  flex: 1 1;
+  overflow: hidden;
+}
+
+.Sidebar_userName__znu__ {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Sidebar_userRole__Smx9Z {
+  font-size: 0.75rem;
+  color: var(--accent-red);
+}
+
+.Sidebar_logout__cK2Gf {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all 0.18s ease;
+}
+
+.Sidebar_logout__cK2Gf:hover {
+  color: var(--error);
+  background: rgba(255, 71, 87, 0.08);
+}
+
