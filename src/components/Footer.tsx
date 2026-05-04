@@ -2,7 +2,13 @@ import Link from 'next/link';
 import { Bot, Github, MessageCircle, Twitter, Heart } from 'lucide-react';
 import styles from './Footer.module.css';
 
-const footerLinks = {
+type FooterLink = {
+  label: string;
+  href: string;
+  external?: boolean;
+};
+
+const footerLinks: Record<string, FooterLink[]> = {
   Product: [
     { label: 'Features', href: '/#features' },
     { label: 'Commands', href: '/commands' },

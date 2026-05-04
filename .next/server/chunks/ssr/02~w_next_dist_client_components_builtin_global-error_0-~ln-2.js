@@ -1,0 +1,3 @@
+module.exports=[10593,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(91220);a.n(d("[project]/Documents/GitHub/ozy/ozybot/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},2597,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(91220);a.n(d("[project]/Documents/GitHub/ozy/ozybot/node_modules/next/dist/client/components/builtin/global-error.js"))},87957,a=>{"use strict";a.i(10593);var b=a.i(2597);a.n(b)},93279,a=>{a.n(a.i(87957))}];
+
+//# sourceMappingURL=02~w_next_dist_client_components_builtin_global-error_0-~ln-2.js.map
